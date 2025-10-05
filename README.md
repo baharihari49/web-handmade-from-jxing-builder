@@ -1,21 +1,6 @@
 # web-handmade-from-jxing-builder
 
-12:23:27 AM
-[vite:css][postcss] @import must precede all other statements (besides @charset or empty @layer)
-1038 |    initial-value: 0;
-1039 |  }
-1040 |  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=Inter:wght@300;400...
-     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-1041 |  :root {
-1042 |    --radius: 0.625rem;
-12:23:28 AM
-[vite:css][postcss] @import must precede all other statements (besides @charset or empty @layer)
-1041 |    initial-value: 0;
-1042 |  }
-1043 |  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=Inter:wght@300;400...
-     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-1044 |  :root {
-1045 |    --radius: 0.625rem;
+okee coba buat page untuk shop nyaa
 
 ## 🚀 Generated with AI
 

@@ -1,23 +1,24 @@
-import Navigation from './components/Navigation'
-import Hero from './components/Hero'
-import FeaturedProducts from './components/FeaturedProducts'
-import Categories from './components/Categories'
-import About from './components/About'
-import Footer from './components/Footer'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Navigation from './components/Navigation';
+import Footer from './components/Footer';
+import Home from './pages/Home';
+import Shop from './pages/Shop';
 
 function App() {
   return (
-    <div className="min-h-screen">
-      <Navigation />
-      <main>
-        <Hero />
-        <FeaturedProducts />
-        <Categories />
-        <About />
-      </main>
-      <Footer />
-    </div>
-  )
+    <BrowserRouter>
+      <div className="min-h-screen">
+        <Navigation />
+        <main>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/shop" element={<Shop />} />
+          </Routes>
+        </main>
+        <Footer />
+      </div>
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;
