@@ -34,7 +34,7 @@
     "typescript-eslint": "^8.45.0",
     "vite": "^7.1.7"
   },
-  "description": "🏪 Create an online store for handmade crafts",
+  "description": "12:23:27 AM\n[vite:css][postcss] @import must precede all other statements (besides @charset or empty @layer)\n1038 |    initial-value: 0;\n1039 |  }\n1040 |  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=Inter:wght@300;400...\n     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n1041 |  :root {\n1042 |    --radius: 0.625rem;\n12:23:28 AM\n[vite:css][postcss] @import must precede all other statements (besides @charset or empty @layer)\n1041 |    initial-value: 0;\n1042 |  }\n1043 |  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=Inter:wght@300;400...\n     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n1044 |  :root {\n1045 |    --radius: 0.625rem;",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/username/repository.git"
